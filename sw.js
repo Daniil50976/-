@@ -18,3 +18,17 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+
+window.OneSignal = window.OneSignal || [];
+OneSignal.push(function() {
+    OneSignal.init({
+        appId: "ВАШ_APP_ID", // Замените на ваш App ID из OneSignal
+        notifyButton: {
+            enable: true, // Включите кнопку уведомлений
+        },
+        welcomeNotification: {
+            title: "Спасибо за подписку!",
+            message: "Вы будете получать уведомления о новых мероприятиях."
+        }
+    });
+});
