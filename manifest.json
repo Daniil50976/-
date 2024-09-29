@@ -1,18 +1,18 @@
 {
-  "name": "Мероприятия Юрга",
+  "name": "Юрга мероприятия",
   "short_name": "ЮМ",
-  "start_url": "https://urgmer.ru/", // URL вашего сайта на Tilda
+  "start_url": "https://urgmer.ru",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "https://optim.tildacdn.com/tild6139-6339-4135-a233-653863303662/-/resize/384x/-/format/webp/192.png", // Ссылка на иконку
+      "src": "https://raw.githubusercontent.com/Daniil50976/Meropriatia/main/icon.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://optim.tildacdn.com/tild6334-3333-4136-b332-636235666565/-/format/webp/512.png", // Ссылка на иконку
+      "src": "https://raw.githubusercontent.com/Daniil50976/Meropriatia/main/icon-large.png",
       "sizes": "512x512",
       "type": "image/png"
     }
