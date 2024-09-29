@@ -2,10 +2,10 @@ self.addEventListener('install', event => {
   event.waitUntil(
     caches.open('my-cache').then(cache => {
       return cache.addAll([
-        'https://your-tilda-site.com',
-        'https://your-tilda-site.com/styles.css', // Пример ссылки на CSS
-        'https://your-tilda-site.com/script.js', // Пример ссылки на JS
-        'https://your-github-repo-url/icon.png', // Ссылка на иконку
+        'https://urgmer.ru',
+        'https://urgmer.ru/styles.css', // Замените на правильный URL, если нужно
+        'https://urgmer.ru/sw.js', // Замените на правильный URL, если нужно
+        'https://raw.githubusercontent.com/Daniil50976/Meropriatia/main/icon.png',
       ]);
     })
   );
